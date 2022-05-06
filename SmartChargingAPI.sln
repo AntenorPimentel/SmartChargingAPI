@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C6F81581-5A7D-49C2-A848-014C48F8E8FF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2939512F-2FD8-4E4F-AFDE-6AAF5B1260D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jedlix.Api", "src\Jedlix.Api\Jedlix.Api.csproj", "{3F0C9712-5B5A-49D5-9160-859DF424BCCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jedlix.Core", "src\Jedlix.Core\Jedlix.Core.csproj", "{91A8EA0A-30E5-4062-806F-0D588A426315}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jedlix.Tests", "tests\Jedlix.Tests\Jedlix.Tests.csproj", "{3D75920A-5860-4B0E-AAA1-AC7EE7C2C35A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F0C9712-5B5A-49D5-9160-859DF424BCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0C9712-5B5A-49D5-9160-859DF424BCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0C9712-5B5A-49D5-9160-859DF424BCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0C9712-5B5A-49D5-9160-859DF424BCCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A8EA0A-30E5-4062-806F-0D588A426315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A8EA0A-30E5-4062-806F-0D588A426315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A8EA0A-30E5-4062-806F-0D588A426315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A8EA0A-30E5-4062-806F-0D588A426315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D75920A-5860-4B0E-AAA1-AC7EE7C2C35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D75920A-5860-4B0E-AAA1-AC7EE7C2C35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D75920A-5860-4B0E-AAA1-AC7EE7C2C35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D75920A-5860-4B0E-AAA1-AC7EE7C2C35A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F0C9712-5B5A-49D5-9160-859DF424BCCB} = {C6F81581-5A7D-49C2-A848-014C48F8E8FF}
+		{91A8EA0A-30E5-4062-806F-0D588A426315} = {C6F81581-5A7D-49C2-A848-014C48F8E8FF}
+		{3D75920A-5860-4B0E-AAA1-AC7EE7C2C35A} = {2939512F-2FD8-4E4F-AFDE-6AAF5B1260D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAF04499-26A8-4C5C-A233-0CDDF1E64232}
+	EndGlobalSection
+EndGlobal
